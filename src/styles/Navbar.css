@@ -1,0 +1,7 @@
+.navabar {
+  display: flex;
+}
+
+.navbar li {
+  display: inline-block;
+}
