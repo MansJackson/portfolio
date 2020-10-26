@@ -25,3 +25,33 @@
   text-decoration: underline;
   cursor: default !important;
 }
+
+.navbar div:nth-child(1), .navbar div:nth-child(3), .navbar_link {
+  transform: translateY(-100px);
+}
+
+.navbar div:nth-child(1) {
+  animation: slideDown .3s ease-out 4s forwards;
+}
+
+.navbar_link:nth-child(1) {
+  animation: slideDown .3s ease-out 4.2s forwards;
+}
+
+.navbar_link:nth-child(2) {
+  animation: slideDown .3s ease-out 4.4s forwards;
+}
+
+.navbar_link:nth-child(3) {
+  animation: slideDown .3s ease-out 4.6s forwards;
+}
+
+.navbar div:nth-child(3) {
+  animation: slideDown .3s ease-out 4.8s forwards;
+}
+
+@keyframes slideDown {
+  to {
+    transform: translateY(1px);
+  }
+}

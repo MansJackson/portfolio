@@ -26,8 +26,8 @@ const Navbar: React.FunctionComponent<NavbarProps> = (props): JSX.Element => {
       <ul className="navbar_links">
         {links.map((el, i) => {
           if (i === 0 || i === links.length - 1) return null;
-          return (<li key={el} className={`navbar_link ${activeLink === el ? 'active' : ''}`}>
-            <a onClick={() => setActiveLink(el)} href="#">{el}</a>
+          return (<li key={el} className="navbar_link">
+            <a className={activeLink === el ? 'active' : ''} onClick={() => setActiveLink(el)} href={`#${el.replace(' ', '_')}`}>{el}</a>
           </li>)
         })}
       </ul>

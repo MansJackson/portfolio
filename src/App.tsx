@@ -3,9 +3,10 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import { Provider } from 'react-redux'
 import store from './store';
+import Loading from './components/Loading';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Loading from './components/Loading';
+import AboutMe from './components/AboutMe';
 
 function App(): JSX.Element {
   const [loading, setLoading] = useState(true);
@@ -25,6 +26,7 @@ function App(): JSX.Element {
           <Navbar />
         </header>
         <Home />
+        <AboutMe />
       </div>
     </Provider>
   );

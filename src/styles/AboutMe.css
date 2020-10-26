@@ -1,0 +1,14 @@
+.about_me {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.about_me_image img {
+  width: 40vw;
+}
+
+.about_me_text {
+  width: 40vw;
+}

@@ -1,8 +1,12 @@
 import React from 'react';
+import { CircularProgress } from '@material-ui/core';
+import '../styles/Loading.css';
 
 const Loading: React.FunctionComponent = (): JSX.Element => {
   return (
-    <div>Loading...</div>
+    <div className="loading">
+      <CircularProgress size={80} />
+    </div>
   );
 }
 
