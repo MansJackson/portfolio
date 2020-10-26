@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 import { LinkAction, SET_ACTIVE_LINK } from './types';
 
-const initialLinkState = 'Home'
+const initialLinkState = 'home'
 
 const activeLinkReducer = (state = initialLinkState, action: LinkAction) => {
   switch (action.type) {

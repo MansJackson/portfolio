@@ -7,3 +7,17 @@
 li {
   list-style: none;
 }
+
+a {
+  color: rgb(14, 14, 14);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:visited {
+  text-decoration: none;
+}
