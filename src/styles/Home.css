@@ -3,6 +3,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url('../assets/computer.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .home_arrow {

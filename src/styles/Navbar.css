@@ -1,12 +1,12 @@
 .navbar {
   width: 100%;
   display: flex;
-  position: absolute;
-  top: 2rem;
+  position: sticky;
+  top: 0;
   font-family: 'Raleway', 'sans-serif';
   text-transform: uppercase;
-  padding: 1rem 2rem;
-  color: rgb(31, 31, 31);
+  padding: 3rem 2rem;
+  color: rgb(255, 255, 255);
   font-size: .8rem;
   font-weight: 700;
 }
@@ -26,8 +26,8 @@
   cursor: default !important;
 }
 
-.navbar div:nth-child(1), .navbar div:nth-child(3), .navbar_link {
-  transform: translateY(-100px);
+/* .navbar div:nth-child(1), .navbar div:nth-child(3), .navbar_link {
+  transform: translateY(-1000px);
 }
 
 .navbar div:nth-child(1) {
@@ -48,7 +48,7 @@
 
 .navbar div:nth-child(3) {
   animation: slideDown .3s ease-out 4.8s forwards;
-}
+} */
 
 @keyframes slideDown {
   to {
