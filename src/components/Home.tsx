@@ -8,7 +8,7 @@ import '../styles/Home.css';
 
 const Home: React.FunctionComponent = (props): JSX.Element => {
   return (
-    <section className="home">
+    <section id="home" className="home">
       <HomeTitle className="home_title" />
       <DownArrow className="home_arrow" />
     </section>

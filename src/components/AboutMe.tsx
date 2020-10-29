@@ -9,12 +9,11 @@ import { ReactComponent as Title } from '../assets/about_me_title.svg';
 
 const AboutMe: React.FunctionComponent = (props): JSX.Element => {
   return (
-    <div className="about_container">
-      <Navbar />
+    <div id="about_me" className="about_container">
       <div className="about_me_header">
         <Title className="about_me_title" />
       </div>
-      <section id="about_me" className="about_me">
+      <section className="about_me">
         <div className="about_me_image">
           <img alt="me" src={profileImg} />
         </div>

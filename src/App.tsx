@@ -6,6 +6,8 @@ import store from './store';
 import Loading from './components/Loading';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
+import Navbar from './components/Navbar';
 
 function App(): JSX.Element {
   const [loading, setLoading] = useState(true);
@@ -21,8 +23,12 @@ function App(): JSX.Element {
   return (
     <Provider store={store}>
       <div className="App">
+        <header>
+          <Navbar />
+        </header>
         <Home />
         <AboutMe />
+        <Skills />
       </div>
     </Provider>
   );

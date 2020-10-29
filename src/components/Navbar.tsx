@@ -18,7 +18,7 @@ const Navbar: React.FunctionComponent<NavbarProps> = (props): JSX.Element => {
   return (
     <nav className="navbar">
       <div className="navbar_home">
-        <a onClick={() => setActiveLink('home')} href="/" className={`navbar_link ${activeLink === links[0] ? 'active' : ''}`}>
+        <a onClick={() => setActiveLink('home')} href="#home" className={`navbar_link ${activeLink === links[0] ? 'active' : ''}`}>
           {links[0]}
         </a>
       </div>

@@ -1,5 +1,6 @@
 .home {
   min-height: 100vh;
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,12 +9,18 @@
   background-attachment: fixed;
 }
 
+.home_title {
+  position: fixed;
+}
+
 .home_arrow {
   position: absolute;
+  z-index: 2;
   bottom: 1rem;
   width: 1.5rem;
   height: fit-content;
   animation: bounce 1.5s ease-in-out 3s infinite;
+  position: fixed;
 }
 
 #handwriting {

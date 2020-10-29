@@ -1,14 +1,18 @@
 .navbar {
+  z-index: 2000;
   width: 100%;
   display: flex;
-  position: sticky;
+  position: fixed;
   top: 0;
   font-family: 'Raleway', 'sans-serif';
   text-transform: uppercase;
-  padding: 3rem 2rem;
-  color: rgb(255, 255, 255);
+  padding: 2rem;
+  background: whitesmoke;
   font-size: .8rem;
   font-weight: 700;
+  box-shadow: 0px -9px 54px 0px rgba(0,0,0,0.75);
+  transform: translateY(-200px);
+  animation: slideDown .3s linear 4s forwards;
 }
 
 .navbar_links {
@@ -26,29 +30,29 @@
   cursor: default !important;
 }
 
-/* .navbar div:nth-child(1), .navbar div:nth-child(3), .navbar_link {
+.navbar div:nth-child(1), .navbar div:nth-child(3), .navbar_link {
   transform: translateY(-1000px);
 }
 
 .navbar div:nth-child(1) {
-  animation: slideDown .3s ease-out 4s forwards;
-}
-
-.navbar_link:nth-child(1) {
   animation: slideDown .3s ease-out 4.2s forwards;
 }
 
-.navbar_link:nth-child(2) {
+.navbar_link:nth-child(1) {
   animation: slideDown .3s ease-out 4.4s forwards;
 }
 
-.navbar_link:nth-child(3) {
+.navbar_link:nth-child(2) {
   animation: slideDown .3s ease-out 4.6s forwards;
 }
 
-.navbar div:nth-child(3) {
+.navbar_link:nth-child(3) {
   animation: slideDown .3s ease-out 4.8s forwards;
-} */
+}
+
+.navbar div:nth-child(3) {
+  animation: slideDown .3s ease-out 5s forwards;
+}
 
 @keyframes slideDown {
   to {
