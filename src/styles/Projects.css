@@ -1,0 +1,18 @@
+.projects {
+  background: rgb(113, 214, 201);
+  position: relative;
+  z-index: 9000;
+}
+
+.projects_title {
+  margin-top: 1rem;
+  width: 350px;
+  height: fit-content;
+  margin-bottom: -4rem;
+}
+
+@media only screen and (min-width: 1170px) {
+  .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+    width: fit-content !important;
+  }
+}
