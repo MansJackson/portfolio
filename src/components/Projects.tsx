@@ -11,7 +11,7 @@ import foodmap from '../assets/foodmap.png';
 import '../styles/Projects.css';
 
 const Projects: React.FunctionComponent = (): JSX.Element => (
-  <section className="projects" id="timeline">
+  <section className="projects" id="projects">
     <ProjectsTitle className="projects_title" />
     <VerticalTimeline>
       <VerticalTimelineElement

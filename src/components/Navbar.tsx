@@ -10,7 +10,7 @@ const Navbar: React.FunctionComponent<NavbarProps> = (props): JSX.Element => {
     'home',
     'about me',
     'skills',
-    'timeline',
+    'projects',
     'contact',
   ];
   const { setActiveLink, activeLink } = props;
