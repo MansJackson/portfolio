@@ -9,6 +9,7 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App(): JSX.Element {
   const [loading, setLoading] = useState(true);
@@ -36,6 +37,7 @@ function App(): JSX.Element {
           <AboutMe />
           <Skills />
           <Projects />
+          <Contact />
         </main>
       </div>
     </Provider>
