@@ -2,8 +2,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { NavbarProps, RootState } from '../types';
-import '../styles/Navbar.css';
 import { setActiveLinkAction } from '../actions';
+import '../styles/Navbar.css';
 
 const Navbar: React.FunctionComponent<NavbarProps> = (props): JSX.Element => {
   const links = [

@@ -1,9 +1,9 @@
 // eslint-disable-next-line
 import React from 'react';
 import '../styles/AboutMe.css';
-import profileImg from '../assets/profilbild.jpg';
-import { ReactComponent as Title } from '../assets/about_me_title.svg';
-import { ReactComponent as SkillsTitle } from '../assets/skills_title.svg';
+import profileImg from '../images/profilbild.jpg';
+import { ReactComponent as Title } from '../images/titles/about_me_title.svg';
+import { ReactComponent as SkillsTitle } from '../images/titles/skills_title.svg';
 
 const AboutMe: React.FunctionComponent = (): JSX.Element => (
   <div id="about_me" className="about_container">

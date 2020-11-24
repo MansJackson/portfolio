@@ -1,26 +1,26 @@
 // eslint-disable-next-line
 import React from 'react';
 import '../styles/Skills.css';
-import bootstrapLogo from '../logos/bootstrap.png';
-import reactLogo from '../logos/react.png';
-import reduxLogo from '../logos/redux.png';
-import handlebarsLogo from '../logos/handlebars.png';
-import { ReactComponent as PugLogo } from '../logos/pug.svg';
-import nodejsLogo from '../logos/nodejs.png';
-import expressLogo from '../logos/express.png';
-import { ReactComponent as PostGreSQL } from '../logos/postgresql.svg';
-import mysqlLogo from '../logos/mysql.png';
-import { ReactComponent as Graphql } from '../logos/graphql.svg';
-import mongodbLogo from '../logos/mongodb.png';
-import html5Logo from '../logos/html5.png';
-import css3Logo from '../logos/css3.png';
-import javascriptLogo from '../logos/javascript.png';
-import typescriptLogo from '../logos/typescript.png';
-import javaLogo from '../logos/java.png';
-import gitLogo from '../logos/git.png';
-import vscodeLogo from '../logos/vscode.png';
-import { ReactComponent as Mocha } from '../logos/mocha.svg';
-import jestLogo from '../logos/jest.png';
+import bootstrapLogo from '../images/logos/bootstrap.png';
+import reactLogo from '../images/logos/react.png';
+import reduxLogo from '../images/logos/redux.png';
+import handlebarsLogo from '../images/logos/handlebars.png';
+import { ReactComponent as PugLogo } from '../images/logos/pug.svg';
+import nodejsLogo from '../images/logos/nodejs.png';
+import expressLogo from '../images/logos/express.png';
+import { ReactComponent as PostGreSQL } from '../images/logos/postgresql.svg';
+import mysqlLogo from '../images/logos/mysql.png';
+import { ReactComponent as Graphql } from '../images/logos/graphql.svg';
+import mongodbLogo from '../images/logos/mongodb.png';
+import html5Logo from '../images/logos/html5.png';
+import css3Logo from '../images/logos/css3.png';
+import javascriptLogo from '../images/logos/javascript.png';
+import typescriptLogo from '../images/logos/typescript.png';
+import javaLogo from '../images/logos/java.png';
+import gitLogo from '../images/logos/git.png';
+import vscodeLogo from '../images/logos/vscode.png';
+import { ReactComponent as Mocha } from '../images/logos/mocha.svg';
+import jestLogo from '../images/logos/jest.png';
 
 const Skills: React.FunctionComponent = (): JSX.Element => (
   <div className="skills">

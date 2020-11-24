@@ -2,12 +2,12 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { ReactComponent as ProjectsTitle } from '../assets/projects_title.svg';
-import vinyl from '../assets/vinyl.png';
-import covid from '../assets/covid.png';
-import chat from '../assets/chat.png';
-import todo from '../assets/todo.png';
-import foodmap from '../assets/foodmap.png';
+import { ReactComponent as ProjectsTitle } from '../images/titles/projects_title.svg';
+import vinyl from '../images/projects/vinyl.png';
+import covid from '../images/projects/covid.png';
+import chat from '../images/projects/chat.png';
+import todo from '../images/projects/todo.png';
+import foodmap from '../images/projects/foodmap.png';
 import '../styles/Projects.css';
 
 const Projects: React.FunctionComponent = (): JSX.Element => (
