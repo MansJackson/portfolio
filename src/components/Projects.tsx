@@ -46,7 +46,7 @@ const Projects: React.FunctionComponent = (): JSX.Element => (
         <h3 className="vertical-timeline-element-title project_title">Final Project Salt - FoodMap</h3>
         <img alt="overview" className="project_img" src={foodmap} />
         <div className="project_footer">
-          <button className="project_button disabled">LIVE</button>
+          <button type="button" className="project_button disabled">LIVE</button>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/johnnyka/Food-Map" className="project_button">SOURCE</a>
         </div>
       </VerticalTimelineElement>

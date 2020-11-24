@@ -4,5 +4,5 @@
   background: linear-gradient(0deg, rgba(255, 249, 38, 1) 0%, rgba(255, 212, 37, 1) 45%, rgba(255, 243, 54, 1) 100%);
   background-attachment: fixed; */
   min-height: 100vh;
-  
+  width: 100vw;
 }

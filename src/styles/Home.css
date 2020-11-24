@@ -11,6 +11,7 @@
 
 .home_title {
   position: fixed;
+  max-width: 90vw;
 }
 
 .home_arrow {
