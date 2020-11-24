@@ -2,9 +2,12 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { ReactComponent as WorkIcon } from '../logos/pug.svg';
-import { ReactComponent as SchoolIcon } from '../logos/graphql.svg';
 import { ReactComponent as ProjectsTitle } from '../assets/projects_title.svg';
+import vinyl from '../assets/vinyl.png';
+import covid from '../assets/covid.png';
+import chat from '../assets/chat.png';
+import todo from '../assets/todo.png';
+import foodmap from '../assets/foodmap.png';
 import '../styles/Projects.css';
 
 const Projects: React.FunctionComponent = (): JSX.Element => (
@@ -13,85 +16,63 @@ const Projects: React.FunctionComponent = (): JSX.Element => (
     <VerticalTimeline>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2011 - present"
+        date="Jul 2020"
         iconStyle={{ background: 'rgb(33, 150, 243)' }}
       >
-        <h3 className="vertical-timeline-element-title">Creative Director</h3>
-        <p>
-          Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-        </p>
+        <h3 className="vertical-timeline-element-title project_title">Salt project - Vinyl Catalog</h3>
+        <img alt="overview" className="project_img" src={vinyl} />
+        <div className="project_footer">
+          <a target="_blank" rel="noopener noreferrer" href="https://mansjackson.com/" className="project_button">LIVE</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/MansJackson/gislaro" className="project_button">SOURCE</a>
+        </div>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2010 - 2011"
+        date="Aug 2020"
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Art Director</h3>
-        <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-        <p>
-          Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-        </p>
+        <h3 className="vertical-timeline-element-title project_title">Salt project - Covid</h3>
+        <img alt="overview" className="project_img" src={covid} />
+        <div className="project_footer">
+          <a target="_blank" rel="noopener noreferrer" href="https://mansjackson.com/" className="project_button">LIVE</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/MansJackson/gislaro" className="project_button">SOURCE</a>
+        </div>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2008 - 2010"
+        date="Sep 2020"
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-        <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-        <p>
-          User Experience, Visual Design
-        </p>
+        <h3 className="vertical-timeline-element-title project_title">Final Project Salt - FoodMap</h3>
+        <img alt="overview" className="project_img" src={foodmap} />
+        <div className="project_footer">
+          <button className="project_button disabled">LIVE</button>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/johnnyka/Food-Map" className="project_button">SOURCE</a>
+        </div>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2006 - 2008"
+        date="Sep 2020"
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-        <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-        <p>
-          User Experience, Visual Design
-        </p>
+        <h3 className="vertical-timeline-element-title project_title">Codetest Ubiquiti - ChatApp</h3>
+        <img alt="overview" className="project_img" src={chat} />
+        <div className="project_footer">
+          <a target="_blank" rel="noopener noreferrer" href="http://chat.mansjackson.com/" className="project_button">LIVE</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/MansJackson/Chat-app" className="project_button">SOURCE</a>
+        </div>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        date="April 2013"
-        iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-        icon={<SchoolIcon />}
+        date="Nov 2020"
+        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
       >
-        <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-        <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-        <p>
-          Strategy, Social Media
-        </p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--education"
-        date="November 2012"
-        iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-        icon={<SchoolIcon />}
-      >
-        <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-        <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-        <p>
-          Creative Direction, User Experience, Visual Design
-        </p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--education"
-        date="2002 - 2006"
-        iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-        icon={<SchoolIcon />}
-      >
-        <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-        <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-        <p>
-          Creative Direction, Visual Design
-        </p>
+        <h3 className="vertical-timeline-element-title project_title">Codetest Ubiquiti - Todo</h3>
+        <img alt="overview" className="project_img" src={todo} />
+        <div className="project_footer">
+          <a target="_blank" rel="noopener noreferrer" href="https://mj-todo-client.herokuapp.com/" className="project_button">LIVE</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/MansJackson/todo-adv.client" className="project_button">SOURCE</a>
+        </div>
       </VerticalTimelineElement>
     </VerticalTimeline>
   </section>

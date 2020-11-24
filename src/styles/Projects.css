@@ -1,6 +1,7 @@
 .projects {
   background: rgb(113, 214, 201);
   position: relative;
+  font-family: 'Raleway', 'sans-serif';
   z-index: 9000;
 }
 
@@ -9,6 +10,51 @@
   width: 350px;
   height: fit-content;
   margin-bottom: -4rem;
+}
+
+.project_title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project_img {
+  display: block;
+  position: relative;
+  width: 100%;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: .5rem;
+  margin: .5rem 0;
+}
+
+.project_footer {
+  display: flex;
+  padding: 1rem 0 0;
+  justify-content: space-between;
+}
+
+.project_button {
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: .5rem;
+  padding: .5rem;
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+.project_button:hover {
+  text-decoration: none;
+  background-color: rgb(230, 230, 230);
+}
+
+.disabled {
+  text-decoration: line-through;
+  background-color: rgb(230, 230, 230);
+  cursor: default;
+}
+
+.disabled:hover {
+  text-decoration: line-through;
+  background-color: rgb(230, 230, 230);
+  cursor: default;
 }
 
 @media only screen and (min-width: 1170px) {
