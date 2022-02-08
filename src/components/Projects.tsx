@@ -8,6 +8,7 @@ import covid from '../images/projects/covid.png';
 import chat from '../images/projects/chat.png';
 import todo from '../images/projects/todo.png';
 import foodmap from '../images/projects/foodmap.png';
+import sudoku from '../images/projects/sudoku.png';
 import '../styles/Projects.css';
 
 const Projects: React.FunctionComponent = (): JSX.Element => (
@@ -72,6 +73,18 @@ const Projects: React.FunctionComponent = (): JSX.Element => (
         <div className="project_footer">
           <a target="_blank" rel="noopener noreferrer" href="https://mj-todo-client.herokuapp.com/" className="project_button">LIVE</a>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/MansJackson/todo-adv.client" className="project_button">SOURCE</a>
+        </div>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--education"
+        date="Maj 2021"
+        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+      >
+        <h3 className="vertical-timeline-element-title project_title">Sudoku app</h3>
+        <img alt="overview" className="project_img" src={sudoku} />
+        <div className="project_footer">
+          <a target="_blank" rel="noopener noreferrer" className="project_button disabled">LIVE</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/MansJackson/sudoku" className="project_button">SOURCE</a>
         </div>
       </VerticalTimelineElement>
     </VerticalTimeline>
