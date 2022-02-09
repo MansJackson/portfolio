@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import React from 'react';
 import '../styles/AboutMe.css';
-import profileImg from '../images/profilbild.png';
+import profileImg from '../images/profilbild.jpeg';
 import { ReactComponent as Title } from '../images/titles/about_me_title.svg';
 import { ReactComponent as SkillsTitle } from '../images/titles/skills_title.svg';
 
