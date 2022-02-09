@@ -20,7 +20,9 @@
 
 .about_me_image img {
   width: 400px;
-  height: auto;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
   margin-right: 7rem;
 }
 
